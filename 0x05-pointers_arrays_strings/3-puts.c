@@ -6,6 +6,11 @@
  */
 void _puts(char *str)
 {
-	printf("%d", *str);
+	int i;
+
+	for (i = 0; i <= str; i++)
+	{
+	_putchar(str[i];
+	}
 	printf('\n');
 }
